@@ -1,0 +1,17 @@
+projects:
+  CoreOneReact-dev:
+    schemaPath: src/graphql/schema.json
+    includes:
+      - src/graphql/**/*.js
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: javascript
+        generatedFileName: ''
+        docsFilePath: src/graphql
+        region: eu-west-1
+        apiId: v7xpnlywf5ekppna77tgwdxaty
+extensions:
+  amplify:
+    version: 3
